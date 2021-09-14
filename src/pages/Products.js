@@ -1,10 +1,13 @@
 import React from 'react';
+//importing our components
+import ProductsContainer from '../components/ProductsContainer/ProductsContainer';
 
 const Products = () => {
     return(
-        <div>
-            <h1>Welcome to the Products page</h1>
-        </div>
+        <section className='productsPage'>
+            <h1>Welcome, here are our products</h1>
+            <ProductsContainer />
+        </section>
     );
 }
 
