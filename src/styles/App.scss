@@ -11,5 +11,8 @@
 @import './base/global';
 
 .App{
-    background: red;
+   
 }
+
+//import our components' styling
+@import './components/navigation';

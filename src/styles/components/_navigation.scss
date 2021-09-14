@@ -1,0 +1,13 @@
+nav{
+    width: 100%;
+    min-height: 10vh;
+    @include flex(row, space-evenly, center);
+    background: $main-color;
+    a{
+        color: $secondary-color;
+        transition: $transition;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
