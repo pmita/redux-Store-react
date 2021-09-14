@@ -1,0 +1,15 @@
+//mixing and functions
+@mixin flex($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+//importing our boiler css styling
+@import './abstract/variables';
+@import './base/global';
+
+.App{
+    background: red;
+}
